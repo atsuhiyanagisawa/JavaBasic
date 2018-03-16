@@ -48,7 +48,7 @@ public class PTra10_05 {
 		 * ※n：runメソッドを実行した回数, xは残りのガソリンの数です
 		 */
 		int n = 0; //forの回数
-		int x = car.gasoline; //今50
+
 		int totalDistance = 0;
 
 
@@ -58,7 +58,7 @@ public class PTra10_05 {
 
 			int resultCarRun = car.run();
 
-			System.out.println(resultCarRun);//後で消す
+
 
 			if(resultCarRun == -1) {
 				System.out.println("目的地に到達できませんでした");
@@ -69,12 +69,12 @@ public class PTra10_05 {
 			totalDistance += resultCarRun;
 
 
-			System.out.println("合計距離は" + totalDistance); //後で消す
+
 
 
 			if(totalDistance >= distance) {
 
-				System.out.println("目的地にまで" + n + "時間かかりました。残りのガソリンは、" + x + "リットルです");
+				System.out.println("目的地にまで" + n + "時間かかりました。残りのガソリンは、" + car.gasoline + "リットルです");
 				break;
 			}
 

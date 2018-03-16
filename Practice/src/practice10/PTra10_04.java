@@ -18,13 +18,11 @@ public class PTra10_04 {
 		User users[];
 		users = new User[3];
 
-		User user1 = new User();
-		User user2 = new User();
-		User user3 = new User();
+		users[0] = new User();
+		users[1] = new User();
+		users[2] = new User();
 
-		users[0] = user1;
-		users[1] = user2;
-		users[2] = user3;
+		
 
 		// ★ java.util.Scannerクラスをインスタンス化し、変数scannerに代入してください
 		Scanner scanner = new Scanner(System.in);

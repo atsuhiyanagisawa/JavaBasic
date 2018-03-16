@@ -15,7 +15,7 @@ public class PTra13_03 {
 
 	public static void main(String[] args) {
 		// ★ common.Slimeクラスをインスンタンス化してください
-
+		
 
 		// ★ common.Slimeインスタンスのnameに"スライム"を設定して下さい
 

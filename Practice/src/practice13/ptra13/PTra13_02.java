@@ -6,12 +6,8 @@
  */
 package practice13.ptra13;
 
-public class PTra13_02 {
+public class PTra13_02 extends practice13.common.Hero {
 
-	/*
-	 * ★ common.Characterクラスを継承した、common.Heroクラスを作成してください
-	 * 	●HP, POWER, ENDURANCEはそれぞれ、（25, 10, 7）
-	 */
 
 	public static void main(String[] args) {
 		// ★ common.Heroクラスをインスンタンス化してください

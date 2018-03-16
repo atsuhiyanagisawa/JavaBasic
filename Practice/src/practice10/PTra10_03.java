@@ -39,7 +39,7 @@ public class PTra10_03 {
 
 		// ★ 配列にした値を、usの各フィールドに代入してください
 		// ユーザIDに該当する値が数値でなかった場合は、エラーでプログラムが止まっても良いです
-		us.userId = lines[0];
+		us.userId = Integer.parseInt(lines[0]);
 		us.userNm = lines[1];
 		us.mail = lines[2];
 		us.password = lines[3];
